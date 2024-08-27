@@ -1,0 +1,101 @@
+@font-face {
+    font-family: laleh ;
+    src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf);
+    src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: laleh ;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu-right img{
+    width: 20%;
+    border-radius: 50%;
+    border: 3px solid gray;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+.menu-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.menu-left img{
+    width: 20%;
+    border-radius: 50%;
+    border: 3px solid gray;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: rgb(71, 81, 74);
+    border: none;
+}
+.menu-list button:hover{
+
+    background-color: rgb(14, 0, 143);
+}
+.menu-list a{
+    text-decoration: none;
+    color: #fff;
+    font-family: laleh;
+
+}
+
+
+
+/* /* ///////////////////////////////////////////////////////////////// */
+
+.text-top{
+    font-size: 60px;
+    font-family: laleh;
+    color: #2680d5;
+    margin-right: 50px
+}
