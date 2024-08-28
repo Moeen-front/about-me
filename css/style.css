@@ -22,8 +22,14 @@ body{
 }
 
 
+
+
+
+
 .menu{
+    position: absolute;
     width: 100%;
+    height: auto;
     /* position: fixed; */
     display: flex;
     justify-content: space-between;
@@ -36,7 +42,8 @@ body{
     align-items: center;
 }
 .menu-right img{
-    width: 20%;
+    width: 80px;
+    height: 50px;
     border-radius: 50%;
     border: 3px solid gray;
     margin: 30px;
@@ -55,7 +62,8 @@ body{
 
 }
 .menu-left img{
-    width: 20%;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 3px solid gray;
     margin: 30px;
@@ -72,23 +80,25 @@ body{
 
 
 .menu-list{
-    display: flex;
-    list-style: none;
+    list-style-type: none;
 }
-.menu-list button{
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    margin-right: 20px;
-    border-radius: 30px;
-    background-color: rgb(71, 81, 74);
-    border: none;
+.menu-list li{
+    float: right;
 }
-.menu-list button:hover{
+.menu-list-a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-    background-color: rgb(14, 0, 143);
+.menu-list-a:hover{
+    color: black;
+    background-color: #fffafa;
 }
-.menu-list a{
+.menu-list-a{
     text-decoration: none;
     color: #fff;
     font-family: laleh;
@@ -99,13 +109,22 @@ body{
 
 /* /* ///////////////////////////////////////////////////////////////// */
 
-
+.nav-text{
+    background-image: url(/imags/start-programming.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    background-blend-mode: luminosity;
+    background-attachment: fixed;
+    height: 800px;
+}
 
 
 .text-top{
-    font-size: 60px;
+    font-size: 80px;
     font-family: laleh;
-    color: #2680d5;
+    color: #fff;
     margin-right: 50px
 }
 
@@ -119,9 +138,9 @@ body{
     line-height: 30px;
 }
 .text-about span{
-    font-size: large;
+    font-size:15px;
     font-family: iran;
-
+    font-weight: bold;
 }
 
 
@@ -134,6 +153,8 @@ body{
     margin-right: 80px;
     color: #999999;
     background-blend-mode: color-burn;
-    margin-top: -150px;
+    margin-top: -100px;
+    position: absolute;
+    border-radius: 5px;
 
 }
