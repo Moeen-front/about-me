@@ -1,5 +1,5 @@
 @font-face {
-    font-family: laleh ;
+    font-family: laleh;
     src: url(../font/Lalezar-Font/OTF/Lalezar-Regular.otf);
     src: url(../font/Lalezar-Font/TTF/Lalezar-Regular.ttf);
 }
@@ -9,15 +9,19 @@
     font-family: iran;
     src: url(../font/A-Iranian-Sans/Iranian\ Sans.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+html{
+    scroll-behavior: smooth;
+}
+body {
     background-color: rgb(0, 0, 0);
-    font-family: laleh ;
+    font-family: laleh;
     color: #fff;
 }
 
@@ -26,7 +30,7 @@ body{
 
 
 
-.menu{
+.menu {
     position: absolute;
     width: 100%;
     height: auto;
@@ -35,13 +39,15 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.menu-right{
+
+.menu-right {
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
 }
-.menu-right img{
+
+.menu-right img {
     width: 80px;
     height: 50px;
     border-radius: 50%;
@@ -55,13 +61,14 @@ body{
 
 
 
-.menu-left{
+.menu-left {
     display: flex;
     justify-content: left;
     align-items: center;
 
 }
-.menu-left img{
+
+.menu-left img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -79,13 +86,15 @@ body{
 
 
 
-.menu-list{
+.menu-list {
     list-style-type: none;
 }
-.menu-list li{
+
+.menu-list li {
     float: right;
 }
-.menu-list-a{
+
+.menu-list-a {
     display: block;
     color: white;
     text-align: center;
@@ -94,11 +103,12 @@ body{
     border-radius: 5px;
 }
 
-.menu-list-a:hover{
+.menu-list-a:hover {
     color: black;
     background-color: #fffafa;
 }
-.menu-list-a{
+
+.menu-list-a {
     text-decoration: none;
     color: #fff;
     font-family: laleh;
@@ -109,7 +119,7 @@ body{
 
 /* /* ///////////////////////////////////////////////////////////////// */
 
-.nav-text{
+.nav-text {
     background-image: url(/imags/start-programming.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -121,35 +131,36 @@ body{
 }
 
 
-.text-top{
+.text-top {
     font-size: 80px;
     font-family: laleh;
     color: #fff;
     margin-right: 50px
 }
 
-.text-about{
+.text-about {
     width: 50%;
 }
 
-.text-about{
+.text-about {
     margin-right: 80px;
     text-align: justify;
     line-height: 30px;
 }
-.text-about span{
-    font-size:15px;
+
+.text-about span {
+    font-size: 15px;
     font-family: iran;
     font-weight: bold;
 }
 
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
 
-.image-lap-top img{
+.image-lap-top img {
     margin-right: 80px;
     color: #999999;
     background-blend-mode: color-burn;
@@ -157,4 +168,45 @@ body{
     position: absolute;
     border-radius: 5px;
 
+}
+
+
+/* //////////////////////////////////////////////////// */
+
+
+
+.about-me-top {
+    text-align: center;
+    margin: 80px;
+
+}
+
+#about-me-text-top {
+    font-size: 50px;
+    color: #fff;
+
+}
+
+
+.about-me {
+    display: flex;
+    height: 800px;
+    background-image: url(/imags/backgrond.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.box-about-me{
+    width: 80%;
+    
+}
+
+
+.about-me-right span{
 }
