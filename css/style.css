@@ -5,7 +5,10 @@
 }
 
 
-
+@font-face {
+    font-family: iran;
+    src: url(../font/A-Iranian-Sans/Iranian\ Sans.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,10 +18,13 @@
 body{
     background-color: rgb(0, 0, 0);
     font-family: laleh ;
+    color: #fff;
 }
+
 
 .menu{
     width: 100%;
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,9 +99,41 @@ body{
 
 /* /* ///////////////////////////////////////////////////////////////// */
 
+
+
+
 .text-top{
     font-size: 60px;
     font-family: laleh;
     color: #2680d5;
     margin-right: 50px
+}
+
+.text-about{
+    width: 50%;
+}
+
+.text-about{
+    margin-right: 80px;
+    text-align: justify;
+    line-height: 30px;
+}
+.text-about span{
+    font-size: large;
+    font-family: iran;
+
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+
+.image-lap-top img{
+    margin-right: 80px;
+    color: #999999;
+    background-blend-mode: color-burn;
+    margin-top: -150px;
+
 }
